@@ -52,7 +52,7 @@
 // export default App;
 
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import DashboardNavbar from "./components/DashboardNavbar";
 import LandingPage from "./components/HeroModel/LandingPage";
